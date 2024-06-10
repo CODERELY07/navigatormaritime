@@ -1,0 +1,113 @@
+/* Footer */
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+.black-footer{
+    background-color: #2b2e33;
+    width: 100%;
+    color: #eeeeee;
+    padding: 70px 0px 30px 0 !important;
+}
+.black-footer i{
+    color:#3366cc;
+    font-size: 20px;
+}
+.foot-wrap{
+    display: flex;
+    flex-direction: column;
+    background-color: #efefef;
+    width: 100%;
+    align-items: center;
+    padding-top: 20px;
+    justify-content: center;
+}
+.foot-wrap div{
+    margin-bottom: 50px;
+}
+.foot-wrap div:nth-last-child(2){
+    margin-bottom: 25px;
+}
+.foot-wrap div:last-child{
+    margin-bottom: 10px;
+}
+.light-color{
+    color: #d0ecfb;
+    font-size: 36px;
+}
+.light-color-2{
+    color: #d0ecfb;
+    line-height: 90px;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.logos{
+    object-fit: contain;
+    width: 100%;
+    max-width: 950px;
+}
+.logos img{
+    width: 100%;
+}
+.counter{
+    width: 100px;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+}
+.counter img{
+    width: 100%;
+}
+.contact-info{
+    width: 1150px;
+    margin: 0 auto;
+}
+.contact-info p{
+    line-height: 30px;
+    font-family: "Arimo", sans-serif;
+}
+.send{
+    background-color:#60b260;
+    padding: 12px 24px 20px;
+    margin: 35px 0 20px;
+    border-radius: 5px;
+    width: max-content;
+}
+a .send i,
+a .send {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.note{
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(167, 167, 167);
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+@media only screen and (max-width: 1200px) {
+    .contact-info{
+        width: 980px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 990px) {
+    .contact-info{
+        width: 1400px;
+        flex-direction: column;
+        margin: 0 auto;
+        display: flex;
+    }
+    .contact-wrap{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        align-items: center;
+        padding: 0;
+        justify-content: center;
+    }
+    .contact-wrap li{
+        width: 100%;
+    }
+}

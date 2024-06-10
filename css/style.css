@@ -1,3 +1,4 @@
+/* Header */
 @import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap");
 /* default */
 *::before,
@@ -23,9 +24,9 @@ i {
   padding: 0;
   flex-direction: row;
   width: 1160px;
+  max-width: 100%;
 }
 body {
-  margin-bottom: 1000px;
   font-family: "Antonio", sans-serif;
   background-color: #fff;
 }
@@ -90,6 +91,7 @@ a,
 a:focus {
   transition: all 0.3s ease-in-out 0s;
   outline: none;
+  text-decoration: none;
 }
 .menu a:hover {
   text-decoration: underline;
@@ -154,18 +156,20 @@ ul {
   }
   .container {
     gap: 45px;
+    width: 950px;
   }
 }
 @media only screen and (max-width: 995px) {
   .container {
     flex-direction: column;
     gap: 10px;
+    width: 700px;
   }
   .menu li {
     margin-left: -5px;
   }
   .logo {
-    max-width: 590px;
+    max-width: 550px;
     object-fit: contain;
   }
 }
@@ -178,6 +182,22 @@ ul {
   }
   .logo {
     margin-top: 35px;
+  }
+  .container {
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 968px) {
+  .navagation {
+    display: none;
+  }
+  .mobile-menu-block {
+    display: block;
+  }
+  .logo {
+    margin-top: 35px;
+    max-width: 450px;
   }
   .container {
     justify-content: center;
