@@ -2,11 +2,12 @@
     require_once 'includes/header.php';
 ?>
 
-<div class="container0-fluid contact-font">
+<div class="container0-fluid  contact-font">
     <div class="banner">
         <div class="rgb-bg"></div>
-        <div class="container z">
+        <div class="container contact-wrapper z">
             <h1 class="dark-color">Contact Us</h1>
+            <!-- TODO: change the style of class sub -->
             <div class="sub">
                 You are here: 
                 <span xmlns:v="http://rdf.data-vocabulary.org/#"><span typeof="v:Breadcrumb"><a href="http://www.navigatormaritime.com" rel="v:url" property="v:title" class="light-color-a">Home</a> » Contact Us </span></span>
@@ -14,9 +15,9 @@
         </div>
     </div>
     <!-- Contact Form And other information -->
-    <div class="container contact-container rounded-0">
+    <div class="container contact-container contact-wrapper rounded-0">
         <div class="contact-form row">
-            <form action="forms/submit-contact.php" class="col-lg-6">
+            <form action="forms/submit-contact.php" class="col-lg-6" method="post">
                 <div class="inputField">
                     <label for="name">Your Name (required)</label>
                     <div class="form-group">
@@ -24,21 +25,21 @@
                     </div>
                 </div>
                 <div class="inputField">
-                    <label for="name">Your Email (required)</label>
+                    <label for="email">Your Email (required)</label>
                     <div class="form-group">
                         <input class="form-control" type="email" id="email" name="email">
                     </div>
                 </div>
                 <div class="inputField">
-                    <label for="name">Contact Number</label>
+                    <label for="contact-number">Contact Number</label>
                     <div class="form-group">
                         <input class="form-control" type="text" id="contact-number" name="contact-number">
                     </div>
                 </div>
                 <div class="inputField">
-                    <label for="name">Purpose</label>
+                    <label for="select-purpose">Purpose</label>
                     <div class="form-group">
-                        <select class="form-control" id="select-purpose" name="select-purpose" multiple required>
+                        <select class="form-control" id="select-purpose" name="select-purpose[]" multiple required>
                             <option value>---</option>
                             <option value="Inquiry">Iniquiry</option>
                             <option value="Book a Course">Book a Course</option>
@@ -48,13 +49,13 @@
                     </div>
                 </div>
                 <div class="inputField">
-                    <label for="name">Course you want to enroll (optional)</label>
+                    <label for="course">Course you want to enroll (optional)</label>
                     <div class="form-group">
                         <input class="form-control" type="text" id="course" name="course">
                         <p><small>Enter the name of the course you want to enroll</small></p>
                 </div>
                 <div class="inputField">
-                    <label for="name">Your Message (required)</label>
+                    <label for="message">Your Message (required)</label>
                     <div class="form-group">
                         <textarea class="form-control"  name="message" id="message" rows="3">
                         </textarea>
@@ -65,15 +66,16 @@
                 </div>
             </form>
             <div class="aside col-lg-6">
+                 <!-- TODO: Add margin top -->
                 <div class="row">
                     <div class="col-lg-6 text-secondary">
                     <i class="fa-solid fa-location-dot dark-color"></i>
-                        <h4 class="dark-color d-inline bolder mt">Address</h4>
+                        <h4 class="dark-color d-inline text-capitalize bolder mt">Address</h4>
                         <p class="mt">Unit 701 S&L Building 1500 Roxas Boulevard, 1000 Ermita, Manila</p>
                     </div>
                     <div class="col-lg-6 text-secondary">
                         <i class="fa-solid fa-phone dark-color"></i>
-                        <h4 class="dark-color bolder d-inline pt-3">Contact NUMBERS</h4>
+                        <h4 class="dark-color text-capitalize bolder d-inline pt-3">Contact NUMBERS</h4>
                         <p class="mt">
                         +632 527 1069 LOCAL <br>
                         +632 516 2993 LOCAL <br>
@@ -91,7 +93,6 @@
                 </div>
             </div>
         </div>
-
     </div>
 </div>
 
