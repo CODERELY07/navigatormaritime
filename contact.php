@@ -10,7 +10,7 @@
             <!-- TODO: change the style of class sub -->
             <div class="sub">
                 You are here: 
-                <span xmlns:v="http://rdf.data-vocabulary.org/#"><span typeof="v:Breadcrumb"><a href="http://www.navigatormaritime.com" rel="v:url" property="v:title" class="light-color-a">Home</a> » Contact Us </span></span>
+                <span xmlns:v="http://rdf.data-vocabulary.org/#"><span typeof="v:Breadcrumb"><a href="#" rel="v:url" property="v:title" class="light-color-a">Home</a> » Contact Us </span></span>
             </div>
         </div>
     </div>

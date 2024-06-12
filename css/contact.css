@@ -1,113 +1,114 @@
 .banner {
-  background: url("https://www.shutterstock.com/image-photo/container-cargo-ship-ocean-sunset-600nw-2195254515.jpg");
-  height: max-content;
-  width: 100%;
-  padding: 60px 0 220px;
-  background-position: bottom;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
+    background: url("https://www.shutterstock.com/image-photo/container-cargo-ship-ocean-sunset-600nw-2195254515.jpg");
+    height: max-content;
+    width: 100%;
+    padding: 60px 0 220px;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
 }
 .rgb-bg {
-  position: absolute;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 .z {
-  position: relative;
+    position: relative;
 }
 .contact-font label,
 .contact-font p,
-.contact-font small,
-.contact-font .sub,
-.contact-font .sub a,
+small,
+.sub,
+.sub a,
 .contact-font input[type="submit"] {
-  font-weight: lighter;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-top: 20px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
 }
 .contact-container input,
 textarea,
 select,
 option {
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .banner h1 {
-  font-weight: bolder;
-  font-size: 42px;
+    font-weight: bolder;
+    font-size: 42px;
 }
 .contact-container {
-  background-color: #fff;
-  position: relative;
-  z-index: 10;
-  margin-bottom: 200px;
-  padding: 40px 45px;
-  margin-top: -170px;
+    background-color: #fff;
+    position: relative;
+    z-index: 10;
+    margin-bottom: 200px;
+    padding: 40px 45px;
+    margin-top: -170px;
 }
 .contact-container form label {
-  font-size: 14px;
-  color: #555;
-  display: block;
-  font-weight: 600;
-  margin-bottom: 16px;
+    font-size: 14px;
+    color: #555;
+    display: block;
+    font-weight: 600;
+    margin-bottom: 16px;
 }
 .contact-container form small {
-  color: #555;
-  display: block;
-  font-weight: lighter;
-  margin-bottom: 30px;
-  font-size: 12px;
+    color: #555;
+    display: block;
+    font-weight: lighter;
+    margin-bottom: 30px;
+    font-size: 12px;
 }
 .contact-container i {
-  font-size: 18px;
+    font-size: 18px;
 }
 .contact-container .aside p {
-  font-size: 15px;
-  line-height: normal;
+    font-size: 15px;
+    line-height: normal;
 }
 form input[type="submit"] {
-  color: #fff;
-  font-weight: bolder !important;
-  width: max-content;
-  padding: 20px 30px;
-  margin-bottom: 20px;
-  font-size: 16px;
-  transition: background 0.5s ease-in-out;
+    color: #fff;
+    font-weight: bolder !important;
+    width: max-content;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    transition: background 0.5s ease-in-out;
 }
 form input[type="submit"]:hover {
-  background: #2230b1;
+    background: #2230b1;
 }
 .mt {
-  margin-top: 30px !important;
-  line-height: 22px !important;
+    margin-top: 30px !important;
+    line-height: 22px !important;
 }
 .form-control {
-  background-color: #f7f7f7;
-  color: #777;
-  border: 1px solid #e4e4e4;
+    background-color: #f7f7f7;
+    color: #777;
+    border: 1px solid #e4e4e4;
 }
 .text-capitalize {
-  text-transform: uppercase !important;
+    text-transform: uppercase !important;
 }
 @media only screen and (max-width: 960px) {
-  .contact-container input[type="text"],
-  .contact-container input[type="email"] {
-    width: 210px;
-  }
+.contact-container input[type="text"],
+    .contact-container input[type="email"] {
+        width: 210px;
+    }
 }
 @media only screen and (max-width: 770px) {
-  .contact-container input[type="text"],
-  .contact-container input[type="email"] {
-    width: 100%;
-  }
-  .contact-wrapper {
-    width: 500px;
-  }
-  .contact-wrapper h1,
-  .contact-wrapper .sub {
-    padding-left: 20px;
-  }
+    .contact-container input[type="text"],
+    .contact-container input[type="email"] {
+        width: 100%;
+    }
+    .contact-wrapper {
+        width: 500px;
+    }
+    .contact-wrapper h1,
+    .contact-wrapper .sub {
+        padding-left: 20px;
+    }
 }
+  
