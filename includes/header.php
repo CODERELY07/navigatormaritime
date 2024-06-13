@@ -10,13 +10,16 @@
     <title>Navigormaritime</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/contact.css">
-    <link rel="stylesheet" href="css/general-style.css"> 
-    <link rel="stylesheet" href="css/archieve.css"> 
+    <!-- using php ehco time force css to load -->
+    <link rel="stylesheet" href="css/footer.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="css/home.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="css/contact.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="css/general-style.css?v=<?php echo time(); ?>"> 
+    <link rel="stylesheet" href="css/archieve.css?v=<?php echo time(); ?>"> 
 </head>
+<!-- Mobile Menu -->
+ <!-- TODO: FIX THE FONT_SIZE AND HEIGHT, MARGIN AND PADDING -->
     <div id="menu" class="fixed-top mobile-menu-block main-color">
         <div id="bar" class="float-end text-white fs-5 pb-2 pt-1">MENU<i class="fa-solid pb-1 fa-bars mx-2"></i></div><br>
         <div class="mobile-menu ">
@@ -41,7 +44,20 @@
                     <li><a href="#" class=" text-white">OUR CLIENTS</a></li>
                     <li><a href="#" class=" text-white">ACCREDIATION COURSE</a></li>
                     <li><a href="#" class=" text-white">CERTIFICATE VERIFICITION</a></li>
-                    <li><a href="#" class=" text-white">COURSES</a></li>
+                      <!-- TODO: DROP DOWN BOOTSRAP -->
+                    <li class="dropdown"> 
+                        <p>
+                         <a href="#" id="course" class="text-white">COURSES</a>
+                
+                        <div id="myDropdown" class="dropdown-content">
+                            <!-- TODO: FIX -->
+                            <a href="house-courses.php" class="each-dropdown">IN HOUSE COURSES</a>
+                            <a href="#" class="each-dropdown">MARINA COURSES</a>
+                            <a href="#" class="each-dropdown">PRACTICAL ASSESMENT</a>
+                            <a href="#" class="each-dropdown">ELECTRICAL COURSES</a>
+                            <a href="#" class="each-dropdown">SPECIAL COURSE</a>
+                        </div>
+                    </li>
                     <li><a href="facilities.php" class=" text-white">FACILITIES</a></li>
                     <li><a href="contact.php" class=" text-white">CONTACT US</a></li>
                 </ul>
@@ -77,7 +93,14 @@
                         <li><a href="#" class="text-secondary">OUR CLIENTS</a></li>
                         <li><a href="#" class="text-secondary">ACCREDIATION COURSE</a></li>
                         <li><a href="#" class="text-secondary">CERTIFICATE VERIFICITION</a></li>
-                        <li><a href="#" class="text-secondary">COURSES</a></li>
+                        <li class="dropdown"> 
+                        <a href="#">COURSES</a>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="#">Course 1</a>
+                                <a href="#">Course 2</a>
+                                <a href="#">Course 3</a>
+                            </div>
+                        </li>
                         <li><a href="facilities.php" class="text-secondary">FACILITIES</a></li>
                         <li><a href="contact.php" class="text-secondary">CONTACT US</a></li>
                     </ul>

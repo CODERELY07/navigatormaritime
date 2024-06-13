@@ -101,7 +101,11 @@ ul {
 .main-color {
   background-color: #032338;
 }
+/* dropdown */
 
+.each-dropdown {
+  color: rgb(217, 212, 204);
+}
 /* Mobile menu */
 .mobile-menu-block {
   display: none;
@@ -113,13 +117,14 @@ ul {
 }
 .mobile-menu-block a {
   text-decoration: none;
+  display: block;
+  padding: 12px 0;
 }
 .mobile-menu-block li {
   border-bottom: 1px solid rgba(255, 255, 255, 0.35);
   text-decoration: none;
   display: block;
   margin: 0 auto;
-  padding: 12px 0;
   text-align: center;
   width: 98%;
 }
@@ -128,7 +133,7 @@ ul {
   padding-top: 15px;
   padding-bottom: 10px;
 }
-.mobile-menu-block ul li:hover {
+.mobile-menu-block ul li a:hover {
   background-color: rgba(4, 47, 77, 0.7);
 }
 .mobile-menu-block {
@@ -145,9 +150,17 @@ ul {
 .mobile-menu {
   width: 100%;
 }
-#menu.active {
-  height: 550px;
+#myDropdown {
+  overflow: hidden;
+  height: 0px;
+  transition: all 0.3s ease-in-out 0s;
+  padding: 0;
+  margin: 0;
 }
+ #myDropdown.active {
+  height:260px;
+}
+
 @media only screen and (max-width: 1200px) {
   .logo {
     max-width: 200px;

@@ -69,9 +69,13 @@
                 <img src="http://www.navigatormaritime.com/wp-content/plugins/hit-counter-max/designs/Digital/odmeter4/1.gif" alt="">
     </div>
 </footer>
+ <!-- jQuery library -->
+ <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="js/script.js?v=<?php echo time(); ?>">
+</script>
 
-<script src="js/script.js">
-
+<script src="./js/ajax.js">
+    
 </script>
 </body>
 </html>

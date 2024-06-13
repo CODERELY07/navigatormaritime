@@ -13,7 +13,7 @@
             </div>
         </div>
     </div>
-    <!-- Contact Form And other information -->
+
     <div class="container contact-container contact-wrapper rounded-0">
         <div class="facilities-wrapper">
             <div class="col-lg-9 layer-container">
