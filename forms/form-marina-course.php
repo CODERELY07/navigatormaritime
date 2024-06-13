@@ -15,7 +15,7 @@
         $sql = "INSERT INTO book_course(name,email,number,courses,message) VALUES('$name','$email','$contact_number', '$courses','$message')";
         if ($conn->query($sql) === TRUE) {
             echo "Send successfully";
-            header("Location:../house-courses.php");
+            header("Location:../marina-courses.php");
             exit();
         } else {
             echo "Error: " . $sql . "<br>" . $conn->error;

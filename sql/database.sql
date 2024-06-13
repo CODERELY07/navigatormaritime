@@ -20,6 +20,64 @@ CREATE TABLE house_course(
     days INT(255) NOT NULL,
     PRIMARY KEY(id)
 )
+--marina-course
+CREATE TABLE marina_course(
+	id INT NOT NULL AUTO_INCREMENT,
+    course VARCHAR(255) NOT NULL,
+    days INT(255) NOT NULL,
+    PRIMARY KEY(id)
+)
+--practical-assement
+CREATE TABLE practical_assesment(
+	id INT NOT NULL AUTO_INCREMENT,
+    course VARCHAR(255) NOT NULL,
+    days INT(255) NOT NULL,
+    PRIMARY KEY(id)
+)
+--electiral-course
+CREATE TABLE electiral_course(
+	id INT NOT NULL AUTO_INCREMENT,
+    course VARCHAR(255) NOT NULL,
+    days INT(255) NOT NULL,
+    PRIMARY KEY(id)
+)
+--book-course
+CREATE TABLE book_course (
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    number INT(11),
+    courses TEXT NOT NULL,
+    message TEXT NOT NULL,
+    enroll_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY(id)
+);
+
+
+--INSERT INTO marina_course
+INSERT INTO marina_course(course,days) VALUES
+('Advanced Training for Ships Operating in polar waters',5),
+('Basic Training for Ships Operating in polar waters',3)
+
+--INSERT INTO practical_assesment
+INSERT INTO practical_assesment(course,days) VALUES
+('Advanced Training for Ships Operating in polar waters',5),
+('Basic Training for Ships Operating in polar waters',3)
+
+--INSERT INTO practical_assesment
+INSERT INTO practical_assesment(course,days) VALUES
+('Advanced Training for Ships Operating in polar waters',5),
+('Basic Training for Ships Operating in polar waters',3)
+
+--electrical course
+INSERT INTO electiral_course (course, days) VALUES
+('Control Engineering Course', 2),
+('High Voltage Safety Electric Propulsion', 2),
+('Marine Electro Technology basic', 2),
+('Pneumatics and Hydraulics', 2),
+('Refrigeration and AirConditioning', 2);
+
+
 --INSERT INTO house_course
 INSERT INTO house_course (course, days) VALUES 
 ('Accident Investigation and Root Cause Analysis', 2),
@@ -132,14 +190,3 @@ INSERT INTO house_course (course, days) VALUES
 ('Vetting Inspection Course', 2),
 ('Voyage Planning Course', 2);
 
---book-course
-CREATE TABLE book_course (
-    id INT NOT NULL AUTO_INCREMENT,
-    name VARCHAR(255) NOT NULL,
-    email VARCHAR(100) NOT NULL,
-    number INT(11),
-    courses TEXT NOT NULL,
-    message TEXT NOT NULL,
-    enroll_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    PRIMARY KEY(id)
-);

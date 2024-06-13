@@ -74,7 +74,7 @@
 <script src="js/script.js?v=<?php echo time(); ?>">
 </script>
 
-<script src="./js/ajax.js">
+<script src="./js/ajax.js?v=<?php echo time(); ?>">
     
 </script>
 </body>

@@ -28,3 +28,15 @@
 .font-grey{
   color: #555;
 }
+.input-text{
+  color: #555;
+  background-color:#f7f7f7 ;
+  font-size: 14px !important;
+  padding: 3px 5px;
+  border: 1px solid #e4e4e4;
+  width: 190px !important;
+  border: 1px solid #e4e4e4;
+}
+.input-text:focus{
+  outline:  1px solid #269cfd;
+}

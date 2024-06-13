@@ -43,7 +43,7 @@
                     <li><a href="#" class=" text-white">SCHEDULE & REGISTRATION</a></li>
                     <li><a href="#" class=" text-white">OUR CLIENTS</a></li>
                     <li><a href="#" class=" text-white">ACCREDIATION COURSE</a></li>
-                    <li><a href="#" class=" text-white">CERTIFICATE VERIFICITION</a></li>
+                    <li><a href="certificate-verification.php" class=" text-white">CERTIFICATE VERIFICITION</a></li>
                       <!-- TODO: DROP DOWN BOOTSRAP -->
                     <li class="dropdown"> 
                         <p>
@@ -52,9 +52,9 @@
                         <div id="myDropdown" class="dropdown-content">
                             <!-- TODO: FIX -->
                             <a href="house-courses.php" class="each-dropdown">IN HOUSE COURSES</a>
-                            <a href="#" class="each-dropdown">MARINA COURSES</a>
-                            <a href="#" class="each-dropdown">PRACTICAL ASSESMENT</a>
-                            <a href="#" class="each-dropdown">ELECTRICAL COURSES</a>
+                            <a href="marina-courses.php" class="each-dropdown">MARINA COURSES</a>
+                            <a href="practical-assesment.php" class="each-dropdown">PRACTICAL ASSESMENT</a>
+                            <a href="electrical-courses.php" class="each-dropdown">ELECTRICAL COURSES</a>
                             <a href="#" class="each-dropdown">SPECIAL COURSE</a>
                         </div>
                     </li>

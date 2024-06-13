@@ -2,8 +2,8 @@
     require_once 'connection/db.php';
         
     // IN HOUSE COURSE
-    if($_POST['course']){
-        $sql = "SELECT * FROM house_course";
+    if($_POST['practical_assesment']){
+        $sql = "SELECT * FROM practical_assesment";
         $result = $conn->query($sql) or die("SQL QUERRY FAILED");
 
         $output = "";

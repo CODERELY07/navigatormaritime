@@ -160,7 +160,10 @@ ul {
  #myDropdown.active {
   height:260px;
 }
-
+/* electrica course table */
+#electrical-course-table-data{
+  margin-right: 40px;
+}
 @media only screen and (max-width: 1200px) {
   .logo {
     max-width: 200px;
@@ -188,6 +191,9 @@ ul {
 @media only screen and (max-width: 960px) {
   .navagation {
     display: none;
+  }
+  #electrical-course-table-data{
+    margin-right: 0px;
   }
   .mobile-menu-block {
     display: block;
