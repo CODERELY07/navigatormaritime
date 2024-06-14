@@ -8,6 +8,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navigormaritime</title>
+    <!-- for media player -->
+    <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+	<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+    <!-- bootrap -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- using php ehco time force css to load -->
@@ -39,7 +43,7 @@
                 </div>
                 <ul class="">
                     <li><a href="index.php" class=" text-white">HOME</a></li>
-                    <li><a href="#" class=" text-white">ABOUT</a></li>
+                    <li><a href="about.php" class=" text-white">ABOUT</a></li>
                     <li><a href="#" class=" text-white">SCHEDULE & REGISTRATION</a></li>
                     <li><a href="#" class=" text-white">OUR CLIENTS</a></li>
                     <li><a href="#" class=" text-white">ACCREDIATION COURSE</a></li>
@@ -93,9 +97,9 @@
                         <li><a href="#" class="text-secondary">OUR CLIENTS</a></li>
                         <li><a href="#" class="text-secondary">ACCREDIATION COURSE</a></li>
                         <li><a href="#" class="text-secondary">CERTIFICATE VERIFICITION</a></li>
-                        <li class="dropdown"> 
-                        <a href="#">COURSES</a>
-                            <div id="myDropdown" class="dropdown-content">
+                        <li> 
+                        <a href="#" class="text-secondary">COURSES</a>
+                            <div id="myDropdown" class="dropdown-content" style="position:absolute">
                                 <a href="#">Course 1</a>
                                 <a href="#">Course 2</a>
                                 <a href="#">Course 3</a>

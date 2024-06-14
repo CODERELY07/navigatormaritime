@@ -30,8 +30,6 @@
             <input type="submit" value="Proceed" class="form-control dark-button" name="submit">
             </div>
            </form>
-
-           
        </div>
       
     </div>

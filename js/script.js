@@ -1,3 +1,4 @@
+// Nav Bar
 const bar = document.getElementById("bar");
 const menu = document.getElementById("menu");
 const course = document.getElementById("course");
@@ -26,6 +27,15 @@ course.addEventListener("click", () => {
     menu.style.height = "860px";
   }
 });
+
+// video 
+// Change the second argument to your options:
+// https://github.com/sampotts/plyr/#options
+const players = Array.from(document.querySelectorAll('video')).map(player => new Plyr(player, {captions: {active: true}}));
+    
+// Expose players so they can be used from the console
+window.players = players;
+
 
 // My exeprment code
 // const bar = document.getElementById("bar");
