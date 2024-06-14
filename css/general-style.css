@@ -37,6 +37,7 @@
   width: 190px !important;
   border: 1px solid #e4e4e4;
 }
+
 .input-text:focus{
   outline:  1px solid #269cfd;
 }

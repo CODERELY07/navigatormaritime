@@ -71,17 +71,17 @@
             </div>
             <div class="boxes">
                 <div class="box">
-                    <a href="http://www.navigatormaritime.com/schedule/">
+                    <a href="#">
                         <img src="http://www.navigatormaritime.com/wp-content/uploads/2015/07/sched_Banner.jpg" class="attachment-full" alt="Find a New Direction">
                     </a>
                 </div>
                 <div class="box">
-                    <a href="http://www.navigatormaritime.com/contact-us/">
+                    <a href="contact.php">
                         <img src="http://www.navigatormaritime.com/wp-content/uploads/2015/07/bookonline_banner.jpg" class="attachment-full" alt="Book Online">
                     </a>
                 </div>
                 <div class="box">
-                    <a href="http://www.navigatormaritime.com/contact-us/">
+                    <a href="contact.php">
                         <img src="http://www.navigatormaritime.com/wp-content/uploads/2015/07/feedback_banner.jpg" class="attachment-full" alt="Feedback and Development">
                     </a>
                 </div>
