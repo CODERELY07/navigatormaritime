@@ -1,4 +1,12 @@
-// Nav Bar
+document.getElementById('course-hover').addEventListener('mouseenter', function() {
+  document.querySelector('.dropdown-hover').style.display = 'flex';
+});
+
+document.getElementById('course-hover').addEventListener('mouseleave', function() {
+  document.querySelector('.dropdown-hover').style.display = 'none';
+});
+
+// Nav Bar mobile
 const bar = document.getElementById("bar");
 const menu = document.getElementById("menu");
 const course = document.getElementById("course");

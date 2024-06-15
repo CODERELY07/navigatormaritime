@@ -4,7 +4,7 @@
 <div class="banner home-banner container-fluid" style="position:absolute;height:400px">
     <div class="rgb-bg"></div>
 </div>
-    <div style="margin-top:50px;" class="container contact-wrapper z">
+    <div style="margin-top:50px;margin-bottom:70px" class="container contact-wrapper z">
         <div class="contact-form row">
             <div class="col-lg-6 mt-5 mb-4">
                 <h1 class="dark-color bolder center" style="font-size:36px">QUALITY, INTEGRITY, AND SINCERITY</h1>
@@ -247,11 +247,66 @@
                 </div>
             </div>
         </div>
-        <section class="text-center mt-5">
-            <small class="font-arimo home-small">We ensure delivery of</small>
+        <section class="mt-5">
+            <small class="font-arimo home-small text-center">We ensure delivery of</small>
+            <h3 class="dark-color bolder center text-wrap" style="font-size:36px;">WORLD-CLASS TRAINING QUALITY AND EXCELLENCE.</h3>
+            <div class="dark-button" style="height:3px;width:40px;margin:30px auto"></div>
+            <small class="font-grey text-center mb-4" style="display:block">We embrace the maritime spirit of hard work and innovation.</small>
+            <div class="row image-box-parent">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <p class="image-box odd">
+                        <a href="#">
+                            <img src="http://www.navigatormaritime.com/wp-content/uploads/2015/07/simulator.jpg" class="attachment-full" alt="Simulator">
+                        </a>
+                    </p>
+                    <h3>FACILITIES AND SIMULATOR</h3>
+                    <p>Providing maritime training and clean facilities that will fit the needs of Filipino Seafares and guide them to a more advanced maritime training. Their maritime skills will turn to a "blue chip" of every Ship owner, Ship Manager, and Crew Manning Agent.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <p class="image-box even">
+                        <a href="#">
+                            <img src="http://www.navigatormaritime.com/wp-content/uploads/2023/12/globalgroupnavigator-940x627.jpg" class="attachment-full" alt="globalgroupnavigator-940x627">
+                        </a>
+                    </p>
+                    <h3>GLOBAL CERTIFIED ISO 9001</h3>
+                    <p>Apart from the practical, theoretical and simulator maritime courses, Navigator International Maritime Training and Assessment Center Inc. seeks maritime instructors to provide lectures under our management and maritime training center scheme.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <p class="image-box odd">
+                        <a href="#">
+                            <img width="420" height="260" src="http://www.navigatormaritime.com/wp-content/uploads/2015/07/marina.jpg" class="attachment-full" alt="MARINA ACCREDITED">
+                        </a>
+                    </p>
+                    <h3>MARINA ACCREDITED</h3>
+                    <p>Certified Marina Training Accredited and Assessment.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <p class="image-box even">
+                        <a href="#">
+                            <img src="http://www.navigatormaritime.com/wp-content/uploads/2015/08/IMG_0491.jpg" class="attachment-full" alt="IMG_0491">
+                        </a>
+                    </p>
+                    <h3>TRAINING AND ASSESSMENT CENTER</h3>
+                    <p>Providing trainings that are qualified by Marina and ISO:9001:2015</p>
+                </div>
+            </div>
         </section>
     </div>
-
+    <div class="banner home-banner container-fluid" style="height:max-content;box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;z-index:0;padding-bottom:50px">
+        <div class="text-center px-2">
+            <div class="container resize">
+                <h3 class="dark-color bolder center mb-3 text-wrap" style="font-size:36px;z-index:6;">OUR MISSION</h3>
+                <p class="font-arimo font-grey text-center" style="font-size:15px">Our Maritime Training Center can secure good and advantageous training that will support the quality and skills of your crew.
+                <br> This way your crew members become your <strong>best advertisement</strong>.</p>
+                <article class="mt-4">
+                    <video controls crossorigin playsinline>
+                            <source src="#" type="video/mp4">
+                    </video>
+                </article>
+            </div>
+        </div>
+    </div>
+  
 <div class="fix"></div>
 <?php
     require_once 'includes/footer.php';

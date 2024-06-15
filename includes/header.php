@@ -61,9 +61,8 @@
                     <li><a href="#" class=" text-white">OUR CLIENTS</a></li>
                     <li><a href="#" class=" text-white">ACCREDIATION COURSE</a></li>
                     <li><a href="certificate-verification.php" class=" text-white">CERTIFICATE VERIFICITION</a></li>
-                      <!-- TODO: DROP DOWN BOOTSRAP -->
+                    
                     <li class="dropdown"> 
-                        <p>
                          <a href="#" id="course" class="text-white">COURSES</a>
                 
                         <div id="myDropdown" class="dropdown-content">
@@ -105,17 +104,20 @@
                     </div>
                     <ul class="justify-flex-end flex flex-wrap menu">
                         <li><a href="index.php" class="text-secondary">HOME</a></li>
-                        <li><a href="#" class="text-secondary">ABOUT</a></li>
+                        <li><a href="about.php" class="text-secondary">ABOUT</a></li>
                         <li><a href="#" class="text-secondary">SCHEDULE & REGISTRATION</a></li>
                         <li><a href="#" class="text-secondary">OUR CLIENTS</a></li>
-                        <li><a href="#" class="text-secondary">ACCREDIATION COURSE</a></li>
-                        <li><a href="#" class="text-secondary">CERTIFICATE VERIFICITION</a></li>
-                        <li> 
-                        <a href="#" class="text-secondary">COURSES</a>
-                            <div id="myDropdown" class="dropdown-content" style="position:absolute">
-                                <a href="#">Course 1</a>
-                                <a href="#">Course 2</a>
-                                <a href="#">Course 3</a>
+                        <li><a href="#" class="text-secondary">ACCREDIATION</a></li>
+                        <li><a href="certificate-verification.php" class="text-secondary">CERTIFICATE VERIFICITION</a></li>
+                        <li id="course-hover"> 
+                            <a href="#" class="text-secondary">COURSES</a>
+                            <div class="dropdown-hover dark-button">
+                                <!-- TODO: FIX -->
+                                <a href="house-courses.php">IN HOUSE COURSES</a>
+                                <a href="marina-courses.php">MARINA COURSES</a>
+                                <a href="practical-assesment.php">PRACTICAL ASSESMENT</a>
+                                <a href="electrical-courses.php">ELECTRICAL COURSES</a>
+                                <a href="#">SPECIAL COURSE</a>
                             </div>
                         </li>
                         <li><a href="facilities.php" class="text-secondary">FACILITIES</a></li>
