@@ -54,7 +54,7 @@
                         <div class="form-group">
                             <select class="form-control" id="select-course" name="select-course[]" required>
                                 <option value>---</option>
-                                <option value="Practical Assessment for Deck Managemenet Level">JRC</option>
+                                <option value="JRC">JRC</option>
                             </select>
                         </div>
                     </div>
