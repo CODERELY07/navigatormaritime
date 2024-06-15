@@ -19,7 +19,6 @@
   height: 100%;
   width: 100%;
   border-radius: 5px;
-  animation: fadeIn 1s;
 }
 .carousel-item img {
   width: 100%;
@@ -94,14 +93,6 @@
   font-family: "Arimo", sans-serif;
   font-size: 12px;
   color: #555;
-}
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
 @media only screen and (max-width: 1200px) {
   #myCarousel {

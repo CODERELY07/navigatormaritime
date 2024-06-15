@@ -76,7 +76,7 @@
                         <div class="carousel-item">
                         <img
                             class="d-block w-100"
-                            src=""
+                            src="https://cdn.pixabay.com/photo/2019/01/28/02/10/girl-taking-photo-3959468_1280.jpg"
                             alt="..."
                         />
                         <div class="carousel-caption d-none d-md-block">
@@ -94,7 +94,7 @@
                         <div class="carousel-item">
                         <img
                             class="d-block w-100"
-                            src=""
+                            src="https://cdn.pixabay.com/photo/2019/01/28/02/10/girl-taking-photo-3959468_1280.jpg"
                             alt="..."
                         />
                         <div class="carousel-caption d-none d-md-block">
@@ -112,7 +112,7 @@
                         <div class="carousel-item">
                         <img
                             class="d-block w-100"
-                            src=""
+                            src="https://cdn.pixabay.com/photo/2019/01/28/02/10/girl-taking-photo-3959468_1280.jpg"
                             alt="..."
                         />
                         <div class="carousel-caption d-none d-md-block">
@@ -130,7 +130,7 @@
                         <div class="carousel-item">
                         <img
                             class="d-block w-100"
-                            src=""
+                            src="https://cdn.pixabay.com/photo/2019/01/28/02/10/girl-taking-photo-3959468_1280.jpg"
                             alt="..."
                         />
                         <div class="carousel-caption d-none d-md-block">
@@ -148,7 +148,7 @@
                         <div class="carousel-item">
                         <img
                             class="d-block w-100"
-                            src=""
+                            src="https://cdn.pixabay.com/photo/2019/01/28/02/10/girl-taking-photo-3959468_1280.jpg"
                             alt="..."
                         />
                         <div class="carousel-caption d-none d-md-block">
@@ -166,7 +166,7 @@
                         <div class="carousel-item">
                         <img
                             class="d-block w-100"
-                            src=""
+                            src="https://cdn.pixabay.com/photo/2019/01/28/02/10/girl-taking-photo-3959468_1280.jpg"
                             alt="..."
                         />
                         <div class="carousel-caption d-none d-md-block">
@@ -184,7 +184,7 @@
                         <div class="carousel-item">
                         <img
                             class="d-block w-100"
-                            src=""
+                            src="https://cdn.pixabay.com/photo/2019/01/28/02/10/girl-taking-photo-3959468_1280.jpg"
                             alt="..."
                         />
                         <div class="carousel-caption d-none d-md-block">
@@ -202,7 +202,7 @@
                         <div class="carousel-item">
                         <img
                             class="d-block w-100"
-                            src=""
+                            src="https://cdn.pixabay.com/photo/2019/01/28/02/10/girl-taking-photo-3959468_1280.jpg"
                             alt="..."
                         />
                         <div class="carousel-caption d-none d-md-block">
