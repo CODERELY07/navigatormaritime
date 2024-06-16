@@ -249,7 +249,7 @@
         </div>
         <section class="mt-5">
             <small class="font-arimo home-small text-center">We ensure delivery of</small>
-            <h3 class="dark-color bolder center text-wrap" style="font-size:36px;">WORLD-CLASS TRAINING QUALITY AND EXCELLENCE.</h3>
+            <h3 class="dark-color bolder text-center text-wrap" style="font-size:36px;">WORLD-CLASS TRAINING QUALITY AND EXCELLENCE.</h3>
             <div class="dark-button" style="height:3px;width:40px;margin:30px auto"></div>
             <small class="font-grey text-center mb-4" style="display:block">We embrace the maritime spirit of hard work and innovation.</small>
             <div class="row image-box-parent">

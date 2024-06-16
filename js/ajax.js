@@ -30,5 +30,38 @@ $(document).ready(function(){
         success: function(response){
             $('#electrical-course-table-data').html(response);
         }
-    })
+    });
+
+    // Certificate Verification
+
+    $('#certificate-verification').submit(function(e){
+        e.preventDefault();
+
+        var dataForm = $(this).serialize();
+
+        var loadText = $('#loadText');
+        var outputText = $('#outputText');
+
+        var userInput = $('#certificate-no').val();
+        $('#loadText').text("Loading Details for Certificate No:" + userInput);
+        
+        loadText.show();
+        // this ensure the output text will hide in resubmission
+        outputText.empty(); 
+        $.ajax({
+            type: 'POST',
+            url: $(this).attr('action'),
+            data: dataForm,
+            success: function(response) {
+                loadText.hide();
+                
+                // Display output data
+                outputText.html(response);
+            },
+            error: function(xhr, status, error) {
+                console.error('Error:', error);
+            }
+        });
+
+    });
 });

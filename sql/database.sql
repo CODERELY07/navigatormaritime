@@ -52,7 +52,12 @@ CREATE TABLE book_course (
     enroll_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY(id)
 );
-
+--certificate
+CREATE TABLE certificate(
+	id INT AUTO_INCREMENT PRIMARY KEY,
+    number INT(12) NOT NULL
+)
+INSERT INTO certificate(number) VALUES(21002100)
 
 --INSERT INTO marina_course
 INSERT INTO marina_course(course,days) VALUES

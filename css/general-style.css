@@ -41,3 +41,8 @@
 .input-text:focus{
   outline:  1px solid #269cfd;
 }
+/* certificate loading style */
+#loadText{
+  display: none; 
+  color: #555;
+}

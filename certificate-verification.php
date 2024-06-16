@@ -24,12 +24,14 @@
            <p class="font-grey fs-14">Fax: (02)516-29-93</p>
            <p class="font-grey fs-14">or emails us: info@navigatormaritime.com</p>
            
-           <form>
-            <span class="font-grey fs-14 font-arimo">Please Type Your Certificate No.: </span>
-            <input type="text" name="certificate-no" id="certificate-no" class="input-text" placeholder="Cerificate Number ...">
-            <input type="submit" value="Proceed" class="form-control dark-button" name="submit">
+           <form action="forms/process.php" method="POST" id="certificate-verification">
+                <span class="font-grey fs-14 font-arimo">Please Type Your Certificate No.: </span>
+                <input type="text" name="certificate-no" id="certificate-no" class="input-text" placeholder="Cerificate Number ...">
+                <input type="submit" value="Proceed" class="form-control dark-button" id="submit-no">
+                <span  class="font-grey fs-14 font-arimo" id="loadText"> </span>
             </div>
            </form>
+           <span class="font-grey fs-14 font-arimo" id="outputText"></span>
        </div>
       
     </div>
