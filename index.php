@@ -8,6 +8,7 @@
         <div class="contact-form row">
             <div class="col-lg-6 mt-5 mb-4">
                 <h1 class="dark-color bolder center" style="font-size:36px">QUALITY, INTEGRITY, AND SINCERITY</h1>
+                
                 <div class="sub">
                     <p class="font-grey" style="font-size:15px;width:80%">
                     We offers various maritime training and assessment to the valued Filipino Seafarer by ensuring delivery of world-class training quality and excellence.
@@ -249,14 +250,14 @@
         </div>
         <section class="mt-5">
             <small class="font-arimo home-small text-center">We ensure delivery of</small>
-            <h3 class="dark-color bolder text-center text-wrap" style="font-size:36px;">WORLD-CLASS TRAINING QUALITY AND EXCELLENCE.</h3>
+            <h3 class="dark-color bolder text-center  text-wrap" style="font-size:36px;width:90%">WORLD-CLASS TRAINING QUALITY AND EXCELLENCE.</h3>
             <div class="dark-button" style="height:3px;width:40px;margin:30px auto"></div>
             <small class="font-grey text-center mb-4" style="display:block">We embrace the maritime spirit of hard work and innovation.</small>
             <div class="row image-box-parent">
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <p class="image-box odd">
                         <a href="#">
-                            <img src="http://www.navigatormaritime.com/wp-content/uploads/2015/07/simulator.jpg" class="attachment-full" alt="Simulator">
+                            <img src="./assets/img/simulator.jpg" class="attachment-full" alt="Simulator">
                         </a>
                     </p>
                     <h3>FACILITIES AND SIMULATOR</h3>
@@ -265,7 +266,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <p class="image-box even">
                         <a href="#">
-                            <img src="http://www.navigatormaritime.com/wp-content/uploads/2023/12/globalgroupnavigator-940x627.jpg" class="attachment-full" alt="globalgroupnavigator-940x627">
+                            <img src="./assets/img/global.jpg">
                         </a>
                     </p>
                     <h3>GLOBAL CERTIFIED ISO 9001</h3>
@@ -274,7 +275,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <p class="image-box odd">
                         <a href="#">
-                            <img width="420" height="260" src="http://www.navigatormaritime.com/wp-content/uploads/2015/07/marina.jpg" class="attachment-full" alt="MARINA ACCREDITED">
+                            <img width="420" height="260" src="./assets/img/marina.jpg" class="attachment-full" alt="MARINA ACCREDITED">
                         </a>
                     </p>
                     <h3>MARINA ACCREDITED</h3>
@@ -283,7 +284,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <p class="image-box even">
                         <a href="#">
-                            <img src="http://www.navigatormaritime.com/wp-content/uploads/2015/08/IMG_0491.jpg" class="attachment-full" alt="IMG_0491">
+                            <img src="./assets/img/training.jpg" class="attachment-full" alt="IMG_0491">
                         </a>
                     </p>
                     <h3>TRAINING AND ASSESSMENT CENTER</h3>
@@ -295,7 +296,7 @@
     <div class="banner home-banner container-fluid" style="height:max-content;box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;z-index:0;padding-bottom:50px">
         <div class="text-center px-2">
             <div class="container resize">
-                <h3 class="dark-color bolder center mb-3 text-wrap" style="font-size:36px;z-index:6;">OUR MISSION</h3>
+                <h3 class="dark-color bolder center mb-3 text-wrap" style="font-size:36px;z-index:6;width:90%">OUR MISSION</h3>
                 <p class="font-arimo font-grey text-center" style="font-size:15px">Our Maritime Training Center can secure good and advantageous training that will support the quality and skills of your crew.
                 <br> This way your crew members become your <strong>best advertisement</strong>.</p>
                 <article class="mt-4">

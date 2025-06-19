@@ -1,7 +1,7 @@
 <footer class="footer">
     <div class="foot-wrap">
             <div class="logos">
-                <img src="http://www.navigatormaritime.com/wp-content/uploads/2023/12/acc-logos-940x166.jpg" alt="logos">
+                <img src="./assets/img/logos.jpg" alt="logos">
             </div>
             <div class="widget-text">
                 <h2 class="light-color">NO OF VISITOR THIS YEAR</h2>

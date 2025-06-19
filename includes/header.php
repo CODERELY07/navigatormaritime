@@ -57,9 +57,9 @@
                 <ul class="">
                     <li><a href="index.php" class=" text-white">HOME</a></li>
                     <li><a href="about.php" class=" text-white">ABOUT</a></li>
-                    <li><a href="#" class=" text-white">SCHEDULE & REGISTRATION</a></li>
+                    <!-- <li><a href="#" class=" text-white">SCHEDULE & REGISTRATION</a></li>
                     <li><a href="#" class=" text-white">OUR CLIENTS</a></li>
-                    <li><a href="#" class=" text-white">ACCREDIATION COURSE</a></li>
+                    <li><a href="#" class=" text-white">ACCREDIATION COURSE</a></li> -->
                     <li><a href="certificate-verification.php" class=" text-white">CERTIFICATE VERIFICITION</a></li>
                     
                     <li class="dropdown"> 
@@ -84,7 +84,7 @@
             <div class="flex header container">
                 <div class="logo">
                     <a href="">
-                        <img class src="http://www.navigatormaritime.com/wp-content/uploads/2015/07/navigatorLogo.jpg" alt="Navigator Logo">
+                        <img class src="./assets/img/navigatorLogo.jpg" alt="Navigator Logo">
                     </a>
                 </div>
                 <div class="navagation">
@@ -105,9 +105,9 @@
                     <ul class="justify-flex-end flex flex-wrap menu">
                         <li><a href="index.php" class="text-secondary">HOME</a></li>
                         <li><a href="about.php" class="text-secondary">ABOUT</a></li>
-                        <li><a href="#" class="text-secondary">SCHEDULE & REGISTRATION</a></li>
+                        <!-- <li><a href="#" class="text-secondary">SCHEDULE & REGISTRATION</a></li>
                         <li><a href="#" class="text-secondary">OUR CLIENTS</a></li>
-                        <li><a href="#" class="text-secondary">ACCREDIATION</a></li>
+                        <li><a href="#" class="text-secondary">ACCREDIATION</a></li> -->
                         <li><a href="certificate-verification.php" class="text-secondary">CERTIFICATE VERIFICITION</a></li>
                         <li id="course-hover"> 
                             <a href="#" class="text-secondary">COURSES</a>
